@@ -5,8 +5,8 @@ import { io } from "socket.io-client";
 import ReactQuill from "react-quill-new";
 import "react-quill-new/dist/quill.snow.css";
 
-const API_BASE   = "http://localhost:5000/api";
-const SOCKET_URL = "http://localhost:5000";
+const API_BASE = "https://co-author-ai.onrender.com/api";
+const SOCKET_URL = "https://co-author-ai.onrender.com";
 const MAX_GENRES = 3;
 
 const ALL_GENRES = [
